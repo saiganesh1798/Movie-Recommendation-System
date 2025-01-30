@@ -27,12 +27,12 @@ This movie recommender system provides personalized movie recommendations based 
    git clone https://github.com/saiganesh1798/Movie-Recommendation-System.git
 Navigate to the project directory:
 
-Bash
+## Bash
 
 cd Movie-Recommendation-System
 Create a virtual environment (recommended):
 
-Bash
+## Bash
 
 python3 -m venv .venv  # Or python -m venv .venv on Windows
 Activate the virtual environment:
@@ -74,7 +74,7 @@ The movie similarity data is stored in another pickled file (similarity.pkl). Th
 
 Note: You will need to create these pickle files from your movie dataset and similarity calculation process.  The code assumes they exist.
 
-Model
+## Model
 The recommendation system uses a simple approach:
 
 When a user selects a movie, the system finds the index of that movie in the movie data.
@@ -87,7 +87,7 @@ movie-recommender-system/
 ├── similarity.pkl   # Pickled similarity matrix
 ├── requirements.txt # (Optional) List of required packages
 └── README.md        # This file
-Future Enhancements
+## Future Enhancements
 Improved Similarity Calculation: Explore more sophisticated similarity metrics or algorithms.
 Content-Based Filtering: Incorporate movie descriptions, genres, or other features for recommendations.
 Collaborative Filtering: Implement collaborative filtering techniques to leverage user ratings.
@@ -96,7 +96,7 @@ Movie Posters: Fetch and display movie posters.
 Deployment: Deploy the app to a cloud platform for broader access.
 
 
-Contributing:
+## Contributing:
 Contributions are welcome!  Please open an issue or submit a pull request.
 Here's what was changed:
 
