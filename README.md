@@ -55,11 +55,9 @@ If you don't have a requirements.txt file, install the packages individually:
 Bash
 
 pip install streamlit pandas numpy pickle requests
-Usage
+## Usage
 Run the Streamlit app:
-
 Bash
-
 streamlit run app.py
 Open the app in your browser: Streamlit will provide a URL in the terminal.  Open this URL in your web browser.
 
