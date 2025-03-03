@@ -93,6 +93,7 @@ User Accounts: Add user authentication and personalized recommendations.
 Movie Posters: Fetch and display movie posters.
 Deployment: Deploy the app to a cloud platform for broader access.
 
+## EXECUTION : streamlit run app.py
 
 ## Contributing:
 Contributions are welcome!  Please open an issue or submit a pull request.
